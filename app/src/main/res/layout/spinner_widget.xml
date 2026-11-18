@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/spinner_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5.7dp"
+        android:paddingRight="5.7dp"
+        android:paddingTop="6.6dp"
+        android:paddingBottom="18.3dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spinner_preview"
+        android:contentDescription="@string/widget_label" />
+</FrameLayout>

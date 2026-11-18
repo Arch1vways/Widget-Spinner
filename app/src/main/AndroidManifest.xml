@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- No activities: the APK only provides the home-screen widget plus the LSPosed part that makes it live. -->
+    <application
+        android:description="@string/xposed_description"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="false">
+
+        <receiver
+            android:name=".SpinnerWidgetProvider"
+            android:exported="true"
+            android:label="@string/widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/spinner_widget_info" />
+        </receiver>
+
+    </application>
+</manifest>
