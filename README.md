@@ -1,6 +1,8 @@
 # Widget Spinner
 
-A Nothing OS-style interactive spinner widget for your home screen.
+A interactive spinner widget for your home screen ported from NothingOS.
+
+Original author page - https://playground.nothing.tech/detail/app/a7hcZh4Q5LKy9WUN
 
 ## Build
 
